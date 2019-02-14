@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import SideBar from './components/sidebar';
 import Nav from './components/Nav/index';
-import Navbar from './components/Navbar/index';
+import NavButton from './components/NavButton/index';
 import Home from './components/Home/index';
 import Art from './components/Art/index';
 import About from './components/About/index';
@@ -14,8 +13,6 @@ import './App.css';
 export default function App() {
   return (
     <div id="App">
-            {/* <Navbar />
-            <SideBar /> */}
             <Nav />
             <div id="page-wrap">
               <Router>
@@ -24,7 +21,7 @@ export default function App() {
                   <Route exact path="/fine_art" component={Art} />
                   <Route exact path="/about" component={About} />
                   <Route exact path="/contact" component={Contact} />
-                  <Route exact path="/app_info" component={Appinfo} />
+                  <Route exact path="/test" component={NavButton} />
                 </Switch>
               </Router>
             </div>

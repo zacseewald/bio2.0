@@ -1,0 +1,28 @@
+.button-border {
+    position: absolute;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+    border: 2px solid black;
+}
+/* Button hamburger lines */
+.button-line-top {
+    position: relative;
+    margin: auto;
+    margin-top: 33%;
+    border-radius: 45%;
+}
+.button-line-center {
+    position: relative;
+    margin: auto;
+    margin-top: .34em;
+    border-radius: 45%;
+}
+.button-line-bottum {
+    position: relative;
+    margin: auto;
+    margin-top: .34em;
+    border-radius: 45%;
+}

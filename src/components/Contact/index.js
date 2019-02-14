@@ -5,7 +5,7 @@ export class Contact extends Component {
   render() {
     return (
       <div>
-        <h1 className="con">Contact info goes here:</h1>
+        <h1 className="con">zacseewald@gmail.com</h1>
       </div>
     )
   }

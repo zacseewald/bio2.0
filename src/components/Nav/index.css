@@ -48,12 +48,12 @@
     color: red;
     margin-top: 50vh;
 }
-.link-nav-Pal a {
+.link-nav-Contact a {
     text-align: center;
     position: relative;
     color: orange;
 }
-.link-nav-Pal a:hover {
+.link-nav-Contact a:hover {
     position: relative;
     color: red;
 }

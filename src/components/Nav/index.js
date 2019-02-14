@@ -50,7 +50,7 @@ export class Nav extends Component {
            
           <div>
             <h1 className="link-nav-Home"><a href="/">Home</a></h1>
-            <h1 className="link-nav-Pal"><a href="/palindrome">Palindrome Game</a></h1>
+            <h1 className="link-nav-Contact"><a href="/contact">Contact</a></h1>
           </div>
         </div>
       </div>

@@ -1,52 +1,110 @@
 import React, { Component } from 'react';
+import NavButton from '../NavButton/index';
 import './index.css';
 
 export class Nav extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
+  state = {
             isClicked: true,
-            display: "none",
+            displayNav: "none",
             backgroundColor: "transparent",
+            bgColor: "pink",
+            lineH: ".18em",
+            lineW: "30px",
+            isClickedBTN: false,
+            display: "block",
+            centerBarmargin: ".34em",
         }
-    }
+    // handleClick = (e) => {
+    //    e.preventDefault();
+    //    !this.state.isClickedBTN ? this.setState({
+    //     display: "none",
+    //     isClickedBTN: true,
+    //      centerBarmargin: "25%",
+    //      lineH: "30px",
+    //      lineW: ".19em",
+    //    })
+    //    :
+    //    this.setState({
+    //      display: "block",
+    //     isClickedBTN: false,
+    //      centerBarmargin: ".34em",
+    //     lineH: ".18em",
+    //     lineW: "30px",
+    //   })
+    //    console.log(this.state.isClickedBTN)
+    // }
     handleNavButton = (e) => {
         e.preventDefault();
         !this.state.isClicked 
         ? 
         this.setState({
+          isClickedBTN: true,
+          centerBarmargin: "25%",
+          lineH: "30px",
+          lineW: ".19em",
           isClicked: true,
-          display: "none",
+          displayNav: "none",
           backgroundColor: "transparent",
+          display: "none",
+      
         })
         :
         this.setState({
-          isClicked: false,
           display: "block",
+          isClickedBTN: false,
+          centerBarmargin: ".34em",
+          lineH: ".18em",
+          lineW: "30px",
+          isClicked: false,
+          displayNav: "block",
           backgroundColor: "rgba(000, 000, 000, .85)",
+         
         });
       }
 
-      componentDidMount () {
+      // componentDidUpdate () {
         // Detects clicks everywhere on the screen
-        document.body.addEventListener('click', this.resetNav)
-      }
+      //   document.body.addEventListener('click', this.resetNav)
+      // }
       // Resets the nav state when there is a click anywhere on the screen
-      resetNav = (e)  => {
-        this.setState({ 
-          isClicked: true,
-          display: "none",
-          backgroundColor: "transparent",
-         })
-      }
-      handleHome = (e) => {
-        console.log("triggered")
-      }
+      // resetNav = (e)  => {
+      //   this.setState({ 
+      //     isClicked: true,
+      //     displayNav: "none",
+      //     backgroundColor: "transparent",
+      //    })
+      // }
+    
   render() {
     return (
       <div style={{ background: this.state.backgroundColor }}>
-        <button className="btn-nav" onClick={this.handleNavButton}>N</button>
-        <div className="nav-page" style={{ backgroundColor: this.state.backgroundColor, display: this.state.display }}>
+        <div onClick={this.handleNavButton}>
+
+        <div className="button-border" onClick={this.handleNavButton}>
+
+            <div  className="button-line-top"style={{ 
+              backgroundColor: this.state.bgColor, 
+              height: this.state.lineH, 
+              width: this.state.lineW, 
+              display: this.state.display, 
+              }}></div>
+
+            <div  className="button-line-center"style={{ 
+              backgroundColor: this.state.bgColor, 
+              height: this.state.lineH, 
+              width: this.state.lineW, 
+              marginTop: this.state.centerBarmargin
+              }}></div>
+
+            <div  className="button-line-bottum"style={{ 
+              backgroundColor: this.state.bgColor, 
+              height: this.state.lineH, 
+              width: this.state.lineW, 
+              display: this.state.display, 
+              }}></div>
+            </div>
+            </div>    
+        <div className="nav-page" style={{ backgroundColor: this.state.backgroundColor, display: this.state.displayNav }}>
            
           <div>
             <h1 className="link-nav-Home"><a href="/">Home</a></h1>

@@ -6,16 +6,16 @@ state = {
     bgColor: "black",
     lineH: ".18em",
     lineW: "30px",
-    isClicked: false,
+    isClickedBTN: false,
     display: "block",
     centerBarmargin: ".34em",
 }
 
 handleClick = (e) => {
   e.preventDefault();
-  !this.state.isClicked ? this.setState({
+  !this.state.isClickedBTN ? this.setState({
     display: "none",
-    isClicked: true,
+    isClickedBTN: true,
     centerBarmargin: "25%",
     lineH: "30px",
     lineW: ".19em",
@@ -23,12 +23,12 @@ handleClick = (e) => {
   :
   this.setState({
     display: "block",
-    isClicked: false,
+    isClickedBTN: false,
     centerBarmargin: ".34em",
     lineH: ".18em",
     lineW: "30px",
   })
-  console.log(this.state.isClicked)
+  console.log(this.state.isClickedBTN)
 }
 
   render() {

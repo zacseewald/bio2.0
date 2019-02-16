@@ -90,6 +90,9 @@ export class Nav extends Component {
           <div className="link-body">
             <h1 className="link-nav-Home"><a href="/">Home</a></h1>
             <h1 className="link-nav-Contact"><a href="/contact">Contact</a></h1>
+            <h1 className="link-nav-Contact"><a href="/tech">Tech</a></h1>
+            <h1 className="link-nav-Contact"><a href="https://www.linkedin.com/in/zacseewald/" target="_blank">LinkedIn</a></h1>
+            <h1 className="link-nav-Contact"><a href="https://github.com/zacseewald" target="_blank">GitHub</a></h1>
           </div>
         </div>
       </div>

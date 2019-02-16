@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from './components/Nav/index';
 import NavButton from './components/NavButton/index';
 import Home from './pages/home';
-import Art from './components/Art/index';
+import Tech from './components/Tech';
 import About from './components/About/index';
 import Contact from './pages/contact';
 import Appinfo from './components/Appinfo/index';
@@ -18,10 +18,9 @@ export default function App() {
               <Router>
                 <Switch>
                   <Route exact path="/" component={Home} />
-                  <Route exact path="/fine_art" component={Art} />
                   <Route exact path="/about" component={About} />
                   <Route exact path="/contact" component={Contact} />
-                  <Route exact path="/test" component={NavButton} />
+                  <Route exact path="/tech" component={Tech} />
                 </Switch>
               </Router>
             </div>

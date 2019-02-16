@@ -5,7 +5,7 @@ import NavButton from './components/NavButton/index';
 import Home from './components/Home/index';
 import Art from './components/Art/index';
 import About from './components/About/index';
-import Contact from './components/Contact/index';
+import Contact from './pages/contact';
 import Appinfo from './components/Appinfo/index';
 
 import './App.css';

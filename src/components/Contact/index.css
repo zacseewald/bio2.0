@@ -1,5 +1,70 @@
-.con {
+
+.link-Links {
+    margin-top: 2em;
+}
+.contact-body {
+    padding-bottom: 5em;
+}
+.github, .linkedin {
+    margin: 2em;
+    height: 5em;
+}
+.links {
+ color: #26c6c4;
+ font-size: 1.5em;
+}
+.links:hover {
+ color: orange;
+ text-decoration: none;font-size: 1.5em;
+}
+
+.img-bckgd {
+    position: relative;
+}
+.contact-img {
+    width: 100vw;
+    position: absolute;
+    right: 0;
+    z-index: -100;
+}
+.logo-contact {
+    position: relative;
+    z-index: 1;
     text-align: center;
-    color: red;
-    margin-top: 100px;
+    color: #2ef8f5;
+    font-weight: 900; 
+    font-size: 12vw;
+    padding-top: 20%;
+}
+.container-links {
+    position: relative;
+    width: 100vw; margin-top: 30%;
+}
+.data-container {
+
+}
+.text-p {
+    color: grey;
+    font-size: 2em;
+    /* padding-top: 5em; */
+}
+.prof-links {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background: #83a7a7;
+    padding-top: 2em;padding-bottom: 2em;
+}
+
+.portrait {
+    padding-top: 2em;
+    text-align: center;
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+ .link-contact {
+    font-size: 3.5em;
+    padding-top: 1.8em;
+ }
 }

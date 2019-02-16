@@ -62,18 +62,7 @@ export class Nav extends Component {
         });
       }
 
-      // componentDidUpdate () {
-        // Detects clicks everywhere on the screen
-      //   document.body.addEventListener('click', this.resetNav)
-      // }
-      // Resets the nav state when there is a click anywhere on the screen
-      // resetNav = (e)  => {
-      //   this.setState({ 
-      //     isClicked: true,
-      //     displayNav: "none",
-      //     backgroundColor: "transparent",
-      //    })
-      // }
+   
     
   render() {
     return (

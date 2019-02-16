@@ -35,6 +35,24 @@
     font-size: 12vw;
     padding-top: 20%;
 }
+
+.wrapper {
+    position: relative;
+
+}
+.tech-logo {
+    display: inline-block;
+    height: 4em;
+    margin-top: 3em;
+}
+.nodeLogo, .expressLogo {
+    margin-left: 10%;
+}
+
+
+
+
+
 .container-links {
     position: relative;
     width: 100vw; margin-top: 30%;

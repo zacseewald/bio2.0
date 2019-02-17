@@ -1,6 +1,6 @@
-## Bio of Zac Seewald
+## Portfolio of Web Apps by Zac Seewald
 
-[View Site](https://biozax.herokuapp.com/)
+[View Site](https://portfolio-webdev.herokuapp.com/)
 
 ### Purpose
 
@@ -13,6 +13,8 @@ Peace, love and happiness...oh,  and uh...Yeehaw!!!
 
 ### Stack
 - React JS => Front end
+- Node JS => Server
 
-### Deployment
-Heroku
+### Deployment/Version Control
+- GitHub => V.C.
+- Heroku => Deployment

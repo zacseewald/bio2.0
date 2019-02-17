@@ -1,0 +1,17 @@
+.header-portfolio {
+    color: grey;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+.link-site {
+    margin: 20px;
+}
+a, a:hover {
+    text-decoration: none;
+}
+.link-apps {
+    color: #26c6c4;
+}
+.link-apps:hover {
+    color: red;
+}

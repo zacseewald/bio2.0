@@ -3,19 +3,38 @@
     margin-top: 5%;
     margin-bottom: 7%;
 }
+.wrapper {
+    position: relative;
+    margin-top: -5px;
+}
 .link-site {
-    margin: 20px;
+    margin: 0px;
+    position: relative;
 }
 a, a:hover {
     text-decoration: none;
 }
 .link-apps {
-    color: #26c6c4;
+    color: black;
+    position: absolute;
+    text-align: center;
 }
 .link-apps:hover {
     color: red;
 }
 
-.zoopoc-gif {
-    margin-bottom: 2em;
+.app-gif {
+    margin: 0px;
+    width: 50%;
+    display: inline-block;
+    left: 0px;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+ .app-gif {
+    width: 100vw;
+ }
 }

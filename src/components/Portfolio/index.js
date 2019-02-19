@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ZopocIMG from "../../images/zopoc.gif";
 import './index.css';
 
 export class Portfolio extends Component {
@@ -13,7 +14,9 @@ export class Portfolio extends Component {
           <h1 className="header-portfolio">Portfolio Work</h1>
 
           <div className="link-site">
-            <a href={ "https://zoopoc.herokuapp.com/" } target={ this.state.target }><h3 className="link-apps">ZooPoc</h3></a>
+            <a href={ "https://zoopoc.herokuapp.com/" } target={ this.state.target }><h3 className="link-apps">ZooPoc</h3>
+              <img className="zoopoc-gif" src={ZopocIMG}></img>
+            </a>
             <br></br>
             <a href={ "https://construct-js.herokuapp.com/" } target={ this.state.target }><h3 className="link-apps">The Construct</h3></a>
           </div>

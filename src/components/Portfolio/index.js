@@ -14,13 +14,22 @@ export class Portfolio extends Component {
       <div className="wrapper" >
           <div className="link-site">
     {/* ZooPocalypse App Link and Image */}
-                <a href={ "https://zoopoc.herokuapp.com/" } target={ this.state.target }>
-                  <img className="app-gif" src={ZopocIMG}></img>
-                 </a>
-    {/* The Construct App Link and Image  */}
-                 <a href={ "https://construct-js.herokuapp.com/" } target={ this.state.target }>
-                  <img className="app-gif" src={PalindromeIMG}></img>
+              <div className="card">
+                  <h3>ZooPocalypse</h3>
+                  <a href={ "https://zoopoc.herokuapp.com/" } target={ this.state.target }>
+                    <img className="app-gif" src={ZopocIMG}></img>
                   </a>
+                  
+                  <p>This app is focused on young children up to age 7 learning to read. The opjective it to spell the name of the animal to free it from it's cage.</p>
+                </div>
+    {/* The Construct App Link and Image  */}
+                <div >
+                    <a href={ "https://construct-js.herokuapp.com/" } target={ this.state.target }>
+                        <img className="app-gif" src={PalindromeIMG}></img>
+                      </a>
+                      <h3>The Construct</h3>
+                      <p>This app is focused on young children up to age 7 learning to read. The opjective it to spell the name of the animal to free it from it's cage.</p>
+                  </div>
           </div>
       </div>
     )

@@ -1,15 +1,24 @@
 .header-portfolio {
     color: grey;
     margin-top: 5%;
-    margin-bottom: 7%;
+    /* margin-bottom: 7%; */
 }
 .wrapper {
     position: relative;
-    margin-top: -5px;
+    margin-top: 0px;
 }
 .link-site {
     margin: 0px;
     position: relative;
+}
+.container {
+    width: 30%;
+    display: inline-block;
+    margin: 2em;
+}
+p {
+    width: 30%;
+    text-emphasis: center;
 }
 a, a:hover {
     text-decoration: none;

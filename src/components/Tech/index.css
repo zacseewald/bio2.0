@@ -1,32 +1,17 @@
-.link-Links {
-    margin-top: 2em;
-}
-.contact-body {
-    padding-bottom: 5em;
-}
-.github, .linkedin {
-    margin: 2em;
-    height: 5em;
-}
-.links {
- color: #26c6c4;
- font-size: 1.5em;
-}
-.links:hover {
- color: orange;
- text-decoration: none;font-size: 1.5em;
+.tech-body {
+    padding-bottom: 22.8%;
 }
 
 .img-bckgd {
     position: relative;
 }
-.contact-img {
+.tech-img {
     width: 100vw;
     position: absolute;
     right: 0;
     z-index: -100;
 }
-.logo-contact {
+.logo-tech {
     position: relative;
     z-index: 1;
     text-align: center;
@@ -34,52 +19,76 @@
     font-weight: 900; 
     font-size: 12vw;
     padding-top: 20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.container {
+    position: relative;
+    width: 100vw; 
+    /* padding-top: 15em; */
+    padding-bottom: 5em;
+}
+.title-row {
+    border-top: .5em solid #2ef8f5;
+    width: 100vw;
+    margin: 0px;
+    margin-top: 3em;
+}
+#tech-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(206, 206, 206);
+    width: 30%;
+    text-align: center;
+    display: inline;
+    padding: 1em;
+    margin: 0px;
+    color: #141414;
 }
 
-.wrapper {
-    position: relative;
+.effect1 {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+}
 
+.row {
+    text-align: center;
+    width: 100vw;
+    display: block;
+}
+.row-one {
+    padding-top: 5em;
 }
 .tech-logo {
-    display: inline-block;
-    height: 4em;
-    margin-top: 3em;
+    height: 5em;
+    margin: 1.5em;
 }
-.nodeLogo, .expressLogo {
-    margin-left: 10%;
+.mobile-header {
+    /* background: #d54c47; */
+    background-image: url(../../images/mediaBG.jpg);
+    padding: 1.5em;
+    display: none;
 }
-
-
-
-
-
-.container-links {
-    position: relative;
-    width: 100vw; margin-top: 30%;
+#name {
+    color: #2ef8f5;
+    padding-left: 1.5em;
+    font-size: 40px;
+    padding-top: .2em;
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-
-.text-p {
-    color: grey;
-    font-size: 2em;
-    /* padding-top: 5em; */
-}
-.prof-links {
-    margin-top: 3em;
-    margin-bottom: 3em;
-    background: #83a7a7;
-    padding-top: 2em;padding-bottom: 2em;
-}
-
-.portrait {
-    padding-top: 2em;
-    text-align: center;
+#title {
+    padding-top: .4em;
+    text-align: right;
+    color: rgb(179, 179, 179);
 }
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
- .link-contact {
-    font-size: 3.5em;
-    padding-top: 1.8em;
+.tech-img, .logo, .logo-tech {
+    display: none;
+ }
+ .mobile-header {
+     display: block;
  }
 }

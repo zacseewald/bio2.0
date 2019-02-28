@@ -6,7 +6,7 @@ export class Nav extends Component {
             isClicked: true, //nav
             displayNav: "none", // nav
             backgroundColor: "transparent",
-            bgColor: "white",
+            bgColor: "rgb(179, 179, 179)",
             lineH: ".18em",
             lineW: "30px",
             isClickedBTN: false,// nav btn

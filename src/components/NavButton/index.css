@@ -5,7 +5,7 @@
     border-radius: 50%;
     width: 4em;
     height: 4em;
-    border: 2px solid white;
+    border: 2px solid rgb(179, 179, 179);
 }
 /* Button hamburger lines */
 .button-line-top {
@@ -26,3 +26,4 @@
     margin-top: .34em;
     border-radius: 45%;
 }
+

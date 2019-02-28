@@ -20,7 +20,7 @@ export class Portfolio extends Component {
                     <img className="app-gif" src={ZopocIMG}></img>
                   </a>
                   
-                  <p>This app is focused on young children up to age 7 learning to read. The opjective it to spell the name of the animal to free it from it's cage.</p>
+                  <p className="info-app">Aimed at early readers from ages 4-7 years of age. The goal of this app is to make spelling a game and rewarding the player through their own accomplishment. </p>
                 </div>
     {/* The Construct App Link and Image  */}
                 <div >
@@ -28,7 +28,7 @@ export class Portfolio extends Component {
                         <img className="app-gif" src={PalindromeIMG}></img>
                       </a>
                       <h3>The Construct</h3>
-                      <p>This app is focused on young children up to age 7 learning to read. The opjective it to spell the name of the animal to free it from it's cage.</p>
+                      <p className="info-app">This app is focused on young children up to age 7 learning to read. The opjective it to spell the name of the animal to free it from it's cage.</p>
                   </div>
           </div>
       </div>

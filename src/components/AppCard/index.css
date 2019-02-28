@@ -1,31 +1,27 @@
 #card-style {
     position: relative;
-     align-content: center
+    align-content: center;
+    margin-bottom: 45%;
+    margin-top: 2em;
 }
-.card {
+.wrapper {
     position: relative;
-    width: 50%;
+    width: 33.33%;
     height: 100%;
     float: left;
     margin: 0px;
-    background: rgb(70, 70, 70);
-    border: 1px solid rgb(34, 34, 34);
-    
 }
 #info {
     height: 100%;
     width:  100%;
     color: rgb(196, 196, 196);
-    /* margin-left: 1em;
-    margin-right: 1em; */
+    padding: 2em;
+    padding-top: 0em;
+    text-align: center;
 }
 #img-style {
-    float: left;
-    width: 100%;
-    border-radius: 1.5em;
+    width: 50%;
     padding: 1em;
-    
-
 }
 h3, h5 {
     color: #26c6c4;
@@ -221,7 +217,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcbcbc', end
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
- .card {
+ .wrapper {
     width: 100%;
  }
 }

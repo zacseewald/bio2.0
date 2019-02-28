@@ -62,20 +62,20 @@
     height: 5em;
     margin: 1.5em;
 }
-.mobile-header {
+/* .mobile-header {
     /* background: #d54c47; */
-    background-image: url(../../images/mediaBG.jpg);
+    /* background-image: url(../../images/mediaBG.jpg);
     padding: 1.5em;
     display: none;
-}
-#name {
-    color: #2ef8f5;
+} */ 
+/* #name {
+    color: black;
     padding-left: 1.5em;
     font-size: 40px;
     padding-top: .2em;
     text-align: right;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-}
+} */
 #title {
     padding-top: .4em;
     text-align: right;
@@ -91,4 +91,7 @@
  .mobile-header {
      display: block;
  }
+ .tech-body {
+    padding-bottom: 0%;
+}
 }

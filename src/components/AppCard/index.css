@@ -1,13 +1,14 @@
 #card-style {
     position: relative;
     align-content: center;
-    margin-bottom: 45%;
     margin-top: 2em;
+    display: inline-block;
 }
 .wrapper {
     position: relative;
     width: 33.33%;
     height: 100%;
+    /* display: inline-block; */
     float: left;
     margin: 0px;
 }
@@ -17,7 +18,9 @@
     color: rgb(196, 196, 196);
     padding: 2em;
     padding-top: 0em;
-    text-align: center;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 #img-style {
     width: 50%;
@@ -26,6 +29,12 @@
 h3, h5 {
     color: #26c6c4;
 
+}
+h5 {
+    margin-top: .5em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
 }
 button { 
     width: -webkit-fill-available; 
@@ -207,17 +216,13 @@ background: -ms-linear-gradient(top, rgba(188,188,188,1) 0%,rgba(191,191,191,1) 
 background: linear-gradient(top, rgba(188,188,188,1) 0%,rgba(191,191,191,1) 5%,rgba(137,137,137,1) 58%,rgba(94,94,94,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcbcbc', endColorstr='#5e5e5e',GradientType=0 );}
 
-/* Code for the second select button, with the tooltip */
 
-/* button:hover { 
-    background-color: #cef2f1;
-    color: red;
-} */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
  .wrapper {
     width: 100%;
+    float: none;
  }
 }

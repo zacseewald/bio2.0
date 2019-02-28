@@ -6,8 +6,12 @@
     z-index: 900;
     padding-bottom: 100em;
 }
+a {
+    font-weight: 900;
+    font-family: 'Rubik', sans-serif;
+}
 .link-body {
-    margin-top: 20vh;
+    margin-top: 13vh;
 }
 .link-nav-Home a {
     position: relative;

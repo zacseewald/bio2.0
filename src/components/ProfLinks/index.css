@@ -1,15 +1,17 @@
 .prof-links {
-    margin-top: 3em;
-    margin-bottom: 3em;
+    /* margin-top: 3em;
+    margin-bottom: 3em; */
     padding-top: 2em;
     padding-bottom: 2em;
+    background: #393f4d;
 }
 
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-      .prof-links {
-    background: transparent;
+.prof-links {
+    background: #393f4d;
+    margin: 0px;
  }
 }

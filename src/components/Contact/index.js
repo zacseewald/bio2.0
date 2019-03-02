@@ -16,6 +16,12 @@ export class Contact extends Component {
     <div className="page-wrap">
         <div className="contact-body" >
         <div className="img-bckgd">
+          {/* Mobile view, hidden in desktop view */}
+          <div className="mobile-header">
+            <h1 id="name">Zac Seewald</h1>
+            <h4 id="title">Full Stack Web Developer</h4>
+          </div>
+          
           <img className="contact-img" src={ContactImg} alt="linkedin Zac Seewald" />
           <h1 className="logo-contact">CONTACT</h1>
         </div>
@@ -24,18 +30,15 @@ export class Contact extends Component {
             <p className="text-p">WANT TO EMAIL ME?</p>
             <a className="links" href={ "mailto: zacseewald@gmail.com"}>zacseewald@gmail.com</a>
             <p className="text-p" style={{ marginTop: "2em",}}> HOW ABOUT A COPY OF MY RESUME?</p>
-            <a className="links" href={ "mailto: zacseewald@gmail.com?subject=Resume Request"}>Request A Copy</a>
-          <div className="prof-links">
-            <a href={ "https://github.com/zacseewald" } target={ this.state.target }>
-              <img className="github" src={gitLogo} height="40px" alt="github Zac Seewald" />
-            </a>
-            <a href={ "https://www.linkedin.com/in/zacseewald/" } target={ this.state.target }>
-              <img className="linkedin" src={LinkedIn} alt="linkedin Zac Seewald" />
-            </a>    
-          </div>
+
+
+            <div id="copy-link">
+                <a className="links" href={ "mailto: zacseewald@gmail.com?subject=Resume Request"}>Request A Copy</a>
+            </div>
+       
             <div className="portrait">
-              <img  src={ZaxPort} style={{ height: "20em", }}/>
-              <p style={{ color: "grey", }}>Zac Seewald</p>
+              <img id="port-img"  src={ZaxPort} />
+              <p id="port-img-p">Zac Seewald</p>
             </div>
           </div>
         </div>

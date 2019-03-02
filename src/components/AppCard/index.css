@@ -1,33 +1,39 @@
 #card-style {
     position: relative;
     align-content: center;
-    margin-top: 2em;
+    /* margin-top: 2em; */
     display: inline-block;
+    background: #393f4d;
 }
 .wrapper {
     position: relative;
-    width: 33.33%;
-    height: 100%;
-    /* display: inline-block; */
-    float: left;
-    margin: 0px;
 }
 #info {
     height: 100%;
     width:  100%;
-    color: rgb(196, 196, 196);
+    color: rgb(226, 250, 242);
     padding: 2em;
     padding-top: 0em;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
+    text-shadow: 
+    0px 6px 10px rgba(0,0,0,0.25),
+    0px 12px 2px rgba(0,0,0,0.1),
+    0px 34px 30px rgba(0,0,0,0.1);
 }
 #img-style {
     width: 50%;
-    padding: 1em;
+    padding: .6em;
+    background: #393f4d;
+    border-radius: .15em;
+    box-shadow: 
+        0px 6px 10px rgba(0,0,0,0.25),
+        0px 12px 2px rgba(0,0,0,0.1),
+        0px 34px 30px rgba(0,0,0,0.1);
 }
 h3, h5 {
-    color: #26c6c4;
+    color: rgb(191, 214, 206);
 
 }
 h5 {
@@ -35,9 +41,13 @@ h5 {
     font-family: 'Rubik', sans-serif;
     font-weight: 800;
     font-size: 22px;
+    text-shadow: 
+    0px 6px 10px rgba(0,0,0,0.25),
+    0px 12px 2px rgba(0,0,0,0.1),
+    0px 34px 30px rgba(0,0,0,0.1);
 }
 button { 
-    width: -webkit-fill-available; 
+    width:50%; 
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -224,5 +234,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcbcbc', end
  .wrapper {
     width: 100%;
     float: none;
+    margin: 0px;
  }
 }

@@ -1,12 +1,14 @@
 #card-style {
-    position: relative;
-    align-content: center;
-    /* margin-top: 2em; */
-    display: inline-block;
-    background: #393f4d;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    grid-gap: 1em;
 }
 .wrapper {
-    position: relative;
+    margin: 0; 
+    width: 100%;
 }
 #info {
     height: 100%;
@@ -226,6 +228,16 @@ background: -ms-linear-gradient(top, rgba(188,188,188,1) 0%,rgba(191,191,191,1) 
 background: linear-gradient(top, rgba(188,188,188,1) 0%,rgba(191,191,191,1) 5%,rgba(137,137,137,1) 58%,rgba(94,94,94,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcbcbc', endColorstr='#5e5e5e',GradientType=0 );}
 
+@media only screen 
+  and (min-device-width: 668px) 
+  and (max-device-width: 815px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    #card-style {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
 
 @media only screen 
   and (min-device-width: 375px) 
@@ -235,5 +247,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcbcbc', end
     width: 100%;
     float: none;
     margin: 0px;
+ }
+ #card-style {
+     display: block;
+     width: 100vw;
+     padding: 0;
  }
 }

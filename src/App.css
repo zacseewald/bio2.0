@@ -23,14 +23,7 @@
 .App-link {
   color: #61dafb;
 }
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 html,
 body {
   margin: 0;
@@ -45,70 +38,6 @@ body {
   text-align: center;
   overflow: auto;
 }
-.bm-menu-wrap {
-  z-index: 1;
-}
-/* link items */
-.bm-item {
-  display: inline-block;
-  text-decoration: none;
-  margin-bottom: 10px;
-  color: pink;
-  transition: color 0.2s;
-  font-size: 24px;
-  font-weight: bolder;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}
-/* hover link cover */
-.bm-item:hover {
-  color: red;
-}
-/* button position */
-.bm-burger-button {
-  position: fixed;
-  z-index: 0;
-  width: 30px;
-  height: 30px;
-  left: 20px;
-  top: 50px;
-  margin-top: 40px;
-  display: flex;
-}
-
-.bm-burger-bars {
-  background: #D54C47;
-  border-radius: 4px;
-}
-/* Close x button */
-.bm-cross-button {
-  display: none;
-}
-
-.bm-cross {
-  background: rgb(138, 138, 138);
-}
-/* side menu body */
-.bm-menu {
-  background: black;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
-  opacity: 0.8;
-  margin-top: 70px;
-}
-
-.bm-morph-shape {
-  fill: #61dafb;
-}
-
-.bm-item-list {
-  color: #b8b7ad;
-}
-
-.bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
-}
-
-
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 

@@ -10,7 +10,7 @@ export class AppCard extends Component {
     }
   render() {
     return (
-      <div id="card-style">
+      <div id="card-style" className="container">
         <div className="wrapper">
             <a href={ "https://zoopoc.herokuapp.com/" } target={ this.state.target }>
               <button>ZooPocalypse</button>

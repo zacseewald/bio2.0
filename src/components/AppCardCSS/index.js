@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import zIMG from "../../images/zopoc.gif";
+import cal_IMG from "../../images/calIMG";
 import constructIMG from "../../images/palindrome.gif";
 import zspIMG from "../../images/zspIMG";
 import svgIMG from "../../images/SR.png";
@@ -28,12 +28,14 @@ export class AppCard extends Component {
         </div>
 
         <div className="wrapper" id="calculator">
-            <a href={ "#" } target={ this.state.target }>
+            <a href={ "https://zax-calculator.herokuapp.com/" } target={ this.state.target }>
                 <button>The Calculator</button>
             </a>
-            {/* <img id="img-style" src={constructIMG} ></img> */}
-            {/* <h5>Description:</h5> */}
-            <p id="info">Comming soon...</p>
+            <img id="img-style" src={cal_IMG} ></img>
+            <h5>Description:</h5>
+            <p id="info">This app is a simple calculator. The purpose in creating it was to challenge	myself with JavaScript functionality and practice with JQuery.
+            <br /><br />
+            I also needed something to build where I could apply the pseudo css classes :hover and :active and as well play with gradient behaviors.<br /><br />...just because it’s possible.</p>
         </div>
 
         <div className="wrapper" id="TBA">

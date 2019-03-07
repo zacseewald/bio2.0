@@ -4,12 +4,16 @@ import constructIMG from "../../images/palindrome.gif";
 import zspIMG from "../../images/zspIMG";
 import "./index.css";
 
-export class AppCard extends Component {
+export class AppCardReact extends Component {
     state={
         target: "_blank",
     }
   render() {
     return (
+      <div>
+      <div id="label-appCard" class="label-appCard-react">
+          <header anchor="middle">Reac JS Apps</header>
+      </div>
       <div id="card-style" className="container">
         <div className="wrapper">
             <a href={ "https://zoopoc.herokuapp.com/" } target={ this.state.target }>
@@ -37,10 +41,10 @@ export class AppCard extends Component {
             <h5>Description:</h5>
             <p id="info">This site is designed to showcase my portfolio of photography work. I designed it so the user can move through the site very quickly and efficiently. It is all about the imagery and branding recognition. The audience has very little patience for unnecessary UX, they are interested in seeing the work and making a quick decision as to whether or not my work aligns with their needs.</p>
         </div>
-
+      </div>
       </div>
     )
   }
 }
 
-export default AppCard;
+export default AppCardReact;

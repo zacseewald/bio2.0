@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import HomeImage from '../components/Home';
-import AppCard from '../components/AppCard';
+import AppCardReact from '../components/AppCardReact';
+import AppCardCSS from '../components/AppCardCSS';
 import ProfLinks from '../components/ProfLinks';
 
 export class home extends Component {
@@ -8,7 +9,8 @@ export class home extends Component {
     return (
       <div>
         <HomeImage />
-        <AppCard />
+        <AppCardReact />
+        <AppCardCSS />
         <ProfLinks />
       </div>
     )

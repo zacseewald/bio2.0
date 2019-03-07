@@ -1,14 +1,38 @@
+#label-appCard {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+header {
+    position: relative;
+    margin-bottom: 0px;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    z-index: 1000;
+    color: rgb(255, 179, 191);
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    -webkit-font-smoothing: antialiased;
+    border-top-right-radius: 2em;
+}
+.label-appCard-react {
+    margin-top: 2em;
+}
+
+
 #card-style {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: auto;
-    padding-top: 2em;
+    margin: 0;
+    width: 100vw;
+    padding-top: 0;
     padding-bottom: 1em;
-    grid-gap: 1em;
 }
 .wrapper {
     margin: 0; 
-    width: 100%;
+    width: 33.333vw;
 }
 #info {
     height: 100%;
@@ -228,6 +252,51 @@ background: -ms-linear-gradient(top, rgba(188,188,188,1) 0%,rgba(191,191,191,1) 
 background: linear-gradient(top, rgba(188,188,188,1) 0%,rgba(191,191,191,1) 5%,rgba(137,137,137,1) 58%,rgba(94,94,94,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcbcbc', endColorstr='#5e5e5e',GradientType=0 );}
 
+@media only screen and (max-width: 1000px) {
+    #card-style {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 0px;
+        margin: 0px;
+        width: 100vw;
+    }
+    .wrapper {
+        width: 33.333vw;
+        float: none;
+        margin: 0px;
+     }
+}
+@media only screen and (max-width: 800px) {
+    #card-style {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0px;
+        margin: 0px;
+        width: 100vw;
+    }
+    .wrapper {
+        width: 50vw;
+        float: none;
+        margin: 0px;
+     }
+}
+@media only screen and (max-width: 550px) {
+    #card-style {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+        margin: 0px;
+        width: 100vw;
+    }
+    #TBA {
+        display: none;
+    }
+    .wrapper {
+        width: 100vw;
+        float: none;
+        margin: 0px;
+     }
+}
 @media only screen 
   and (min-device-width: 668px) 
   and (max-device-width: 815px) 
@@ -237,8 +306,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcbcbc', end
         display: grid;
         grid-template-columns: 50% 50%;
     }
+    .wrapper {
+        width: 100%;
+        float: none;
+        margin: 0px;
+     }
 }
-
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
